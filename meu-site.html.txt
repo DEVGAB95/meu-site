@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        main {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+            background-color: white;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao Meu Site</h1>
+</header>
+
+<nav>
+    <a href="#sobre">Sejam todos bem vindos ao meu site, meu nome é Gabriel Rodrigues, estudante de Analise e Desenvolvimento de sistemas na Anhembi-morubi. Estou no segundo semestre da faculdade, porém estudo linguagem de programação a alguns anos, estou pronto para desenvolver em HTML/CSS e programar em Javascript.</a>
+    <a href="#servicos">Desenvolvo sites para todas as áreas voltadas ao comercio em geral.</a>
+    <a href="#contato">11-93091505</a>
+</nav>
+
+<main>
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Bem-vindo ao nosso site! Aqui você encontra informações sobre nossos serviços e como podemos ajudá-lo.</p>
+    </section>
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Desenvolvimento Web</li>
+            <li>Design Gráfico</li>
+            <li>Marketing Digital</li>
+        </ul>
+    </section>
+    <section id="11993091505">
+        <h2>INSTAGRAM gabriel.rodrigues99</h2>
+        <p>Entre em contato conosco através do email: gabrielsccp1995@gmail.com</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
